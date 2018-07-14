@@ -9,6 +9,7 @@ class Student
   end
 
   def new
+    @student_hash = student_hash
   end
 
   def self.create_from_collection(students_array)
