@@ -18,7 +18,7 @@ class Student
   end
 
   def add_student_attributes(attributes_hash)
-    attribut
+    #attribut
   end
 
   def self.all
