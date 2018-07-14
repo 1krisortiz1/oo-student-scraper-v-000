@@ -5,11 +5,8 @@ class Student
   @@all = []
 
   def initialize(student_hash)
+    student_hash {|key, value| self.send("#(key)=", value}
     @@all << self
-  end
-
-  def new(student_hash)
-    @student_hash = student_hash
   end
 
   def self.create_from_collection(students_array)
