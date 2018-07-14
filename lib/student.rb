@@ -8,7 +8,7 @@ class Student
     @@all << self
   end
 
-  def new
+  def new(student_hash)
     @student_hash = student_hash
   end
 
